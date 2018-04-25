@@ -1,6 +1,6 @@
 {
   "name": "micro-nosniff",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MicroJs \"middleware\" to prevent mimetype sniffing",
   "main": "index.js",
   "author": "CanRau <cansrau@gmail.com>",
@@ -11,9 +11,7 @@
     "test": "ava test.js",
     "test:watch": "ava --watch test.js"
   },
-  "files": [
-    "src"
-  ],
+  "files": ["index.js"],
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.42",
     "@babel/core": "^7.0.0-beta.42",
