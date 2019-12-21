@@ -2,8 +2,9 @@
   "name": "micro-nosniff",
   "version": "1.0.1",
   "description": "MicroJs \"middleware\" to prevent mimetype sniffing",
-  "main": "index.js",
-  "author": "CanRau <cansrau@gmail.com>",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "CanRau <cansrau@gmail.com> (https://www.canrau.com)",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
@@ -11,7 +12,28 @@
     "test": "ava src/*.spec.ts",
     "test:watch": "yarn test --watch"
   },
-  "files": ["index.js"],
+  "bugs": {
+    "url": "https://github.com/gaiama/micro-nosniff/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaiama/micro-nosniff.git"
+  },
+  "keywords": [
+    "micro",
+    "zeit",
+    "now",
+    "microservice",
+    "micro-service",
+    "server",
+    "rest",
+    "middleware",
+    "micro-plugin"
+  ],
+  "files": [
+    "lib/index.js",
+    "lib/index.d.ts"
+  ],
   "devDependencies": {
     "@types/micro": "^7.3.3",
     "@types/request-promise": "^4.1.45",
