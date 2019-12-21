@@ -1,4 +1,8 @@
-## Prevent mime type sniffing for [micro](https://github.com/zeit/micro/)
+# Prevent mime type sniffing for ▲ Zeit's [micro](https://github.com/zeit/micro/)
+
+#### Written in Typescript since v1.1.0
+
+### Installation
 
 ```
 yarn add micro-nosniff
