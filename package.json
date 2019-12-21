@@ -6,10 +6,10 @@
   "author": "CanRau <cansrau@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "babel src --out-dir .",
+    "build": "tsc",
     "watch": "yarn build --watch",
-    "test": "ava test.js",
-    "test:watch": "ava --watch test.js"
+    "test": "ava src/*.spec.ts",
+    "test:watch": "yarn test --watch"
   },
   "files": ["index.js"],
   "devDependencies": {
